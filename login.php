@@ -16,7 +16,7 @@ ob_end_flush();
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><?php echo $_SESSION['system']['name'] ?></title>
+  <title>VIT Attendance</title>
  	
 
 <?php include('./header.php'); ?>
@@ -45,13 +45,12 @@ header("location:index.php?page=home");
 </style>
 
 <body class="bg-dark">
-
-
-  <main id="main" >
+<body background="Capture.png">  
+ <main id="main" >
   	
   		<div class="align-self-center w-100">
-		<h4 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h4>
-  		<div id="login-center" class="bg-dark row justify-content-center">
+		<h4 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h4></br></br></br>
+  		<div id="login-center" class=" row justify-content-center">
   			<div class="card col-md-4">
   				<div class="card-body">
   					<form id="login-form" >
