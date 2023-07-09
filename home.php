@@ -48,6 +48,10 @@
         </div>
     </div>
 </div>
+</br>
+</br>
+
+<p style="text-align:center;"><img src="Capture2.png" alt="VIT"></p><br>
 <script>
 	$('#manage-records').submit(function(e){
         e.preventDefault()
