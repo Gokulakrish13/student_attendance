@@ -1,4 +1,5 @@
 <?php include 'db_connect.php' ?>
+
 <div class="container-fluid">
 	<div class="col-lg-12">
 		<div class="card">
@@ -47,11 +48,11 @@
 	<table width="100%">
 		<tr>
 			<td width="50%">
-				<p>Course: <b class="course"></b></p>
+				<p>Department: <b class="course"></b></p>
 				<p>Subject: <b class="subject"></b></p>
 			</td>
 			<td width="50%">
-				<p>Class: <b class="class"></b></p>
+				<p>Department: <b class="class"></b></p>
 				<p>Date of Class: <b class="doc"></b></p>
 			</td>
 		</tr>
