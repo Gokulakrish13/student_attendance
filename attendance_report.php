@@ -43,10 +43,14 @@
 		</div>
 	</div>
 </div>
+
 <div id="table_clone" style="display: none">
+<p style="text-align:center;"><img src="Capture1.png" alt="VIT"></p><br>
 	<table width="100%">
 		<tr>
+<center><h5><b>VIT STUDENT ATTENDANCE MANAGEMENT SYSTEM</b></h5></center>
 			<td width="50%">
+				</br>
 				<p>Course: <b class="course"></b></p>
 				<p>Subject: <b class="subject"></b></p>
 				<p>Total Days of Classes: <b class="noc"></b></p>
@@ -155,6 +159,7 @@
 									})
 								}  
 								}  
+							
 
 							tr.append('<td class="text-center">'+(i++)+'</td>')
 							tr.append('<td class="">'+(name)+'</td>')
