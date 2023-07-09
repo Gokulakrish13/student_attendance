@@ -40,7 +40,7 @@ CREATE TABLE `attendance_list` (
 --
 
 INSERT INTO `attendance_list` (`id`, `class_subject_id`, `doc`, `date_created`) VALUES
-(1, 1, '2020-10-28', '2020-10-28 20:06:37');
+(1, 1, '2022-10-01', '2022-10-01 20:06:37');
 
 -- --------------------------------------------------------
 
@@ -61,8 +61,8 @@ CREATE TABLE `attendance_record` (
 --
 
 INSERT INTO `attendance_record` (`id`, `attendance_id`, `student_id`, `type`, `date_created`) VALUES
-(1, 1, 1, 1, '2020-10-28 20:06:37'),
-(2, 1, 2, 2, '2020-10-28 20:06:37');
+(1, 1, 1, 1, '2020-10-01 20:06:37'),
+(2, 1, 2, 2, '2020-10-01 20:06:37');
 
 -- --------------------------------------------------------
 
@@ -84,8 +84,8 @@ CREATE TABLE `class` (
 --
 
 INSERT INTO `class` (`id`, `course_id`, `level`, `section`, `status`, `date_created`) VALUES
-(1, 2, '1', 'B', 1, '2020-10-28 10:48:45'),
-(2, 2, '1', 'A', 1, '2020-10-28 10:52:58');
+(1, 2, '1', 'B', 1, '2020-10-01 10:48:45'),
+(2, 2, '1', 'A', 1, '2020-10-01 10:52:58');
 
 -- --------------------------------------------------------
 
@@ -128,10 +128,10 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`id`, `course`, `description`, `date_created`) VALUES
-(1, 'Sample Course', 'Sample Course', '2020-10-28 10:00:41'),
-(2, 'Course 2', ' Course 2', '2020-10-28 10:02:09'),
-(3, 'Course 3', ' Course 3', '2020-10-28 10:02:16'),
-(4, 'Course 4', ' Course 4', '2020-10-28 10:02:24');
+(1, 'School of Information Technology (SITE)', 'Sample 1', '2020-10-01 10:00:41'),
+(2, 'School of Computer Science and Engineering (SCOPE)', 'Sample 2', '2020-10-01 10:02:09'),
+(3, 'School of Electronics Engineering (SENSE)', 'Sample 3', '2020-10-01 10:02:16'),
+(4, 'School of Architecture (V-SPARC)', 'Sample 4', '2020-10-01 10:02:24');
 
 -- --------------------------------------------------------
 
@@ -154,7 +154,7 @@ CREATE TABLE `faculty` (
 --
 
 INSERT INTO `faculty` (`id`, `id_no`, `name`, `email`, `contact`, `address`, `date_created`) VALUES
-(1, '06232014', 'John Smith', 'jsmith@sample.com', '+18456-5455-55', 'Sample Only', '2020-10-28 11:32:18');
+(1, '06232014', 'Gokul', 'Gokul@vit.ac.in', '9876543210', 'VIT,Vellore', '2020-10-10 11:32:18');
 
 -- --------------------------------------------------------
 
@@ -175,8 +175,8 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `id_no`, `class_id`, `name`, `date_created`) VALUES
-(1, '06232014', 2, 'Claire Blake', '2020-10-28 11:53:24'),
-(2, '123456', 2, 'George Wilson', '2020-10-28 15:20:57');
+(1, '06232014', 2, 'Sashank Chowdary', '2020-10-01 11:53:24'),
+(2, '123456', 2, 'Lokesh Kumaran', '2020-10-01 15:20:57');
 
 -- --------------------------------------------------------
 
@@ -196,9 +196,9 @@ CREATE TABLE `subjects` (
 --
 
 INSERT INTO `subjects` (`id`, `subject`, `description`, `date_created`) VALUES
-(1, 'Subject 1 ', 'Subject 1 ', '2020-10-28 10:29:53'),
-(2, 'Subject 2', 'Subject 2', '2020-10-28 10:30:48'),
-(3, 'Subject 3', 'Subject 3', '2020-10-28 10:30:57');
+(1, 'Software project Management ', 'Sample Sub 1 ', '2020-10-28 10:29:53'),
+(2, 'Data Science', 'Sample Sub 2', '2020-10-28 10:30:48'),
+(3, 'Electrical and Electronical Engineering', 'Sample Sub 3', '2020-10-28 10:30:57');
 
 -- --------------------------------------------------------
 
@@ -220,7 +220,7 @@ CREATE TABLE `system_settings` (
 --
 
 INSERT INTO `system_settings` (`id`, `name`, `email`, `contact`, `cover_img`, `about_content`) VALUES
-(1, 'Student Attendance Management System', 'info@sample.comm', '+6948 8542 623', '1603344720_1602738120_pngtree-purple-hd-business-banner-image_5493.jpg', '&lt;p style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, Arial, sans-serif; font-weight: 400; text-align: justify;&quot;&gt;&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;');
+(1, 'VIT STUDENT ATTENDANCE MANAGEMENT SYSTEM', 'info@sample.comm', '9087675432', '1603344720_1602738120_pngtree-purple-hd-business-banner-image_5493.jpg', '&lt;p style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Open Sans&amp;quot;, Arial, sans-serif; font-weight: 400; text-align: justify;&quot;&gt;&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; background: transparent; position: relative;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;');
 
 -- --------------------------------------------------------
 
@@ -242,8 +242,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `type`, `faculty_id`) VALUES
-(1, 'Administrator', 'admin', '0192023a7bbd73250516f069df18b500', 1, 0),
-(2, 'John Smith', 'jsmith@sample.com', 'af606ddc433ae6471f104872585cf880', 3, 1);
+(1, 'Gokul', 'admin', '0192023a7bbd73250516f069df18b500', 1, 0),
+(2, 'Sai Kusuma', 'saik@vit.ac.in', 'af606ddc433ae6471f104872585cf880', 3, 1);
 
 --
 -- Indexes for dumped tables
